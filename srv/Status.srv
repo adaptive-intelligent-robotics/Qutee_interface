@@ -1,4 +1,4 @@
-bool data # e.g. for hardware enabling / disabling
 ---
-bool success   # indicate successful run of triggered service
-string message # informational, e.g. for error messages
+float32 battery	      # indicates the battery voltage
+uint8 number_weights  # indicates the number of weigts of the policy. This is useful to automatically initialize the training algorithms
+string error_message  # for error messages
