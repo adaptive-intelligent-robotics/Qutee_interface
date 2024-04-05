@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Weights.msg"
   "msg/RolloutRes.msg"
   "srv/Status.srv"
+  "srv/Rollout.srv"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
