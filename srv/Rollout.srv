@@ -1,3 +1,5 @@
-qutee_interface/weights policy_weights # provides the weights of the neural network policy.
+std_msgs/Float32MultiArray weights # provides the weights of the neural network policy.
 ---
-qutee_interface/rolloutres transitions        # provides the transition data collected during the rollout.
+# provides the transition data collected during the rollout.
+std_msgs/Float32MultiArray states
+std_msgs/Float32MultiArray actions
