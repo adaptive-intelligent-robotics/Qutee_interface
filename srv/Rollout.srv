@@ -1,0 +1,3 @@
+qutee_interface/weights policy_weights # provides the weights of the neural network policy.
+---
+qutee_interface/rolloutres transitions        # provides the transition data collected during the rollout.
